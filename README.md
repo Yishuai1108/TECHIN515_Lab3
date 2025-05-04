@@ -8,11 +8,11 @@
 - **Enhanced sorting algorithm**: implement a more enhanced algorithm with scores and measuring weights/percentages.
 - **Data storage**: have a cloud system to store users’ data to prevent repetitive testing once entering the process.
 
-### 🔧 Additional Sensors & Hardware
+### Additional Sensors & Hardware
 - **Audio**: add audio to play related sounds once the house is announced to make a more engaging user experience.
 - **Screen**: add an interactive interface with animation and transitions.
 - **Touch sensor**: replace buttons with touch screen for a more intuitive interaction.
 
-### 🧩 Integration with Decision Tree Model
+### Integration with Decision Tree Model
 - Based on the sensors, the decision tree model would be suitable for the sorting hat process but would need more considerations. It is suitable because the touch sensor inputs function similarly to the buttons which can be easily mapped to existing decision tree. The audio and enhanced user interface can be just replaced by new screen and remaining the original decision tree way of determining house. The touch sensor could also connect directly to microcontroller that has sufficient pinout, making sure the feasibility of screen. 
 The necessary improvements include using touch calibration logic to preprocess the touch input and handle variables stable, alternative model like fuzzy logic system to handle the analog nature of touch inputs and audio and user interface experience based on user interactions and giving more accurate results of the sorting hat algorithm process, and state management to improve the decision tree to include interface for smooth transitions. 
